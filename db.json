@@ -1,0 +1,120 @@
+{
+  "collections": [
+    {
+      "id": "col-all",
+      "name": "All Bookmarks",
+      "isSystem": true
+    },
+    {
+      "id": "col-fav",
+      "name": "Favorites",
+      "isSystem": true
+    },
+    {
+      "id": "col-dev",
+      "name": "Frontend & React",
+      "isSystem": false
+    },
+    {
+      "id": "col-ai",
+      "name": "AI & Tools",
+      "isSystem": false
+    },
+    {
+      "id": "col-read",
+      "name": "Reading List",
+      "isSystem": false
+    },
+    {
+      "id": "col-1795000266743",
+      "name": "hhh",
+      "isSystem": false
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "bm-1",
+      "url": "https://react.dev",
+      "domain": "react.dev",
+      "title": "React – The Library for Web and Native User Interfaces",
+      "description": "React lets you build user interfaces out of individual pieces called components.",
+      "image": "https://react.dev/images/og-home.png",
+      "collectionId": "col-dev",
+      "notes": "Official docs for hooks and server components.",
+      "isFavorite": false,
+      "createdAt": "2026-11-16T10:00:00.000Z"
+    },
+    {
+      "id": "bm-2",
+      "url": "https://tailwindcss.com/docs",
+      "domain": "tailwindcss.com",
+      "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML",
+      "description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90.",
+      "image": "https://tailwindcss.com/api/og?path=/docs/installation",
+      "collectionId": "col-dev",
+      "notes": "Great reference for spacing, grid, and responsive utilities.",
+      "isFavorite": true,
+      "createdAt": "2026-11-15T14:30:00.000Z"
+    },
+    {
+      "id": "bm-3",
+      "url": "https://vite.dev",
+      "domain": "vite.dev",
+      "title": "Vite | Next Generation Frontend Tooling",
+      "description": "Instant server start, lightning fast HMR, and rich features for modern web projects.",
+      "image": "https://vite.dev/og-image.png",
+      "collectionId": "col-dev",
+      "notes": "Check plugin ecosystem and env variable conventions.",
+      "isFavorite": false,
+      "createdAt": "2026-11-14T09:15:00.000Z"
+    },
+    {
+      "id": "bm-4",
+      "url": "https://lucide.dev/icons",
+      "domain": "lucide.dev",
+      "title": "Lucide Icons",
+      "description": "Beautiful & consistent icon toolkit made by the community. Open-source and lightweight.",
+      "image": "",
+      "collectionId": "col-dev",
+      "notes": "Default icon set for React projects.",
+      "isFavorite": false,
+      "createdAt": "2026-11-13T16:45:00.000Z"
+    },
+    {
+      "id": "bm-5",
+      "url": "https://platform.openai.com/docs",
+      "domain": "platform.openai.com",
+      "title": "OpenAI Platform Documentation",
+      "description": "Explore developer resources, tutorials, API docs, and dynamic examples to get the most out of OpenAI.",
+      "image": "",
+      "collectionId": "col-ai",
+      "notes": "Structured outputs and tool-calling patterns.",
+      "isFavorite": true,
+      "createdAt": "2026-11-12T11:20:00.000Z"
+    },
+    {
+      "id": "bm-6",
+      "url": "https://huggingface.co/models",
+      "domain": "huggingface.co",
+      "title": "Hugging Face – Models",
+      "description": "Discover, download, and test thousands of open-source machine learning models and datasets.",
+      "image": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "collectionId": "col-ai",
+      "notes": "Benchmark open weights models for local inference.",
+      "isFavorite": false,
+      "createdAt": "2026-11-11T08:05:00.000Z"
+    },
+    {
+      "id": "bm-7",
+      "url": "https://martinfowler.com/articles/patterns-of-distributed-systems",
+      "domain": "martinfowler.com",
+      "title": "Patterns of Distributed Systems",
+      "description": "A catalog of common architectural patterns for building reliable distributed systems.",
+      "image": "",
+      "collectionId": "col-read",
+      "notes": "Read Write-Ahead Log and Quorum chapters this weekend.",
+      "isFavorite": false,
+      "createdAt": "2026-11-10T19:00:00.000Z"
+    }
+  ]
+}
